@@ -3,7 +3,9 @@ body{
     padding: 0px;
     background-color: rgb(32, 65, 132);
 }
-div .nav-bar{
+
+/* ------------------------------------------------------------------  Navigation Bar Starts  ---------------------------------------------------------------------------- */
+.nav-bar{
     margin: 0px;
     padding: 0px;
 }
@@ -44,4 +46,35 @@ ul{
 hr{
     color: whitesmoke;
     padding: 0px;
+}
+
+/* ------------------------------------------------------------------  Navigation Bar Ends  ---------------------------------------------------------------------------- */
+
+
+
+/* ------------------------------------------------------------------  Footer Starts  ---------------------------------------------------------------------------- */
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-li{
+    display: inline-block;
+    margin-right: 20px;
+    margin-bottom: 5px;
+    font-family: Poppins;
+    position: relative;
+    right: -50%;
+}
+
+.footer-li a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.footer-li a:hover{
+    color: teal;
 }
