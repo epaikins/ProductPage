@@ -1,7 +1,8 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(32, 65, 132);
+    background-color: rgb(36, 65, 132) ;
+    /* rgb(32, 65, 132) */
 }
 
 /* ------------------------------------------------------------------  Navigation Bar Starts  ---------------------------------------------------------------------------- */
@@ -50,6 +51,68 @@ hr{
 
 /* ------------------------------------------------------------------  Navigation Bar Ends  ---------------------------------------------------------------------------- */
 
+/* ------------------------------------------------------------------  Body Starts  ---------------------------------------------------------------------------- */
+.body-main{
+    display: flex;
+}
+
+tr{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+td{
+    padding: 5px;
+    margin: 0px;
+    border: 1px solid whitesmoke;
+    width: 20cm;
+}
+
+td h3{
+    position: relative;
+    right: -33%;
+    top: 0px;
+    font-family: Poppins;
+    color: whitesmoke;
+    padding:0px;
+    margin: 0px;
+    font-size: 30px;
+}
+
+td hr{
+    width: 20%;
+}
+td p{
+    color: whitesmoke;
+
+}
+
+button{
+    font-size: 30px;
+    width: 10cm;
+    color: rgb(36, 65, 132) ;
+    font-family: Poppins;
+    border-radius: 10px;
+    border: 2px rgb(36, 65, 132) ;
+    position: relative;
+    right: -25%;
+}
+
+table{
+    position: relative;
+    padding-top: 100px;
+    right: -9%;
+}
+
+img{
+    width: 20cm;
+    height: 15cm;
+}
+
+
+/* ------------------------------------------------------------------  Body Ends  ---------------------------------------------------------------------------- */
+
 
 
 /* ------------------------------------------------------------------  Footer Starts  ---------------------------------------------------------------------------- */
@@ -78,3 +141,6 @@ hr{
 .footer-li a:hover{
     color: teal;
 }
+
+
+/* ------------------------------------------------------------------  Footer Ends  ---------------------------------------------------------------------------- */
