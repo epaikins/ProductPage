@@ -1,0 +1,47 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(32, 65, 132);
+}
+div .nav-bar{
+    margin: 0px;
+    padding: 0px;
+}
+
+ul{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    padding: 0px;
+}
+
+.li-center{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Poppins;
+    font-size: 30px;
+    color: whitesmoke;
+    position: relative;
+    right: -50%;
+}
+
+.li-right{
+    display: inline-block;
+    margin-right: 20px;
+    font-family: Poppins;
+    position: relative;
+    right: -80%;
+}
+
+.li-right a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.li-right a:hover{
+    color: teal;
+}
+
+hr{
+    color: whitesmoke;
+    padding: 0px;
+}
