@@ -47,6 +47,7 @@ ul{
 .li-right a:hover{
     background-color:rgb(36, 65, 132);
     color: whitesmoke;
+    border-radius: 8px;
 }
 
 hr{
@@ -112,6 +113,7 @@ td h3{
 td hr{
     width: 20%;
     box-sizing: border-box;
+    color: rgb(36, 65, 132);
 }
 td p{
     box-sizing: border-box;
@@ -126,7 +128,7 @@ button{
     background-color: whitesmoke;
     font-family: Poppins;
     border-radius: 10px;
-    border: 2px solidrgb(36, 65, 132) ;
+    border: 2px solid rgb(36, 65, 132) ;
     position: relative;
     transition-duration: 0.4s;
     box-sizing: border-box;
@@ -260,6 +262,7 @@ button:hover{
 .footer-li a:hover{
     background-color: rgb(36, 65, 132);
     color: whitesmoke;
+    border-radius: 8px;
 }
 
 
