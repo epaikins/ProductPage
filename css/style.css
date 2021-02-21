@@ -1,7 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
-    background-color: rgb(36, 65, 132) ;
+    background-color: whitesmoke ;
     /* rgb(32, 65, 132) */
 }
 
@@ -23,7 +23,7 @@ ul{
     margin-right: 20px;
     font-family: Poppins;
     font-size: 30px;
-    color: whitesmoke;
+    color: rgb(36, 65, 132);
     position: relative;
     right: -48%;
     margin-bottom: 20px;
@@ -38,19 +38,19 @@ ul{
 }
 
 .li-right a{
-    color: whitesmoke;
+    color: rgb(36, 65, 132);
     text-decoration: none;
     padding: 8px;
     transition-duration: 0.4s;
 }
 
 .li-right a:hover{
-    background-color: whitesmoke;
-    color: rgb(36, 65, 132);
+    background-color:rgb(36, 65, 132);
+    color: whitesmoke;
 }
 
 hr{
-    color: whitesmoke;
+    color:rgb(36, 65, 132);
     padding: 0px;
 }
 
@@ -62,13 +62,14 @@ hr{
 }
 
 p a{
-    color: whitesmoke;
+    color: rgb(36, 65, 132);
     transition-duration: 0.4s;
 }
 
 p a:hover{
-    color: rgb(62, 104, 202);
+    text-decoration: none;
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 tr{
@@ -101,7 +102,7 @@ td h3{
     text-align: center;
     top: 0px;
     font-family: Poppins;
-    color: whitesmoke;
+    color: rgb(36, 65, 132);
     padding:0px;
     margin: 0px;
     font-size: 30px;
@@ -114,18 +115,18 @@ td hr{
 }
 td p{
     box-sizing: border-box;
-    color: whitesmoke;
+    color:rgb(36, 65, 132);
 
 }
 
 button{
     font-size: 20px;
     width: 6cm;
-    color: whitesmoke ;
-    background-color: rgb(36, 65, 132);
+    color: rgb(36, 65, 132) ;
+    background-color: whitesmoke;
     font-family: Poppins;
     border-radius: 10px;
-    border: 2px solid whitesmoke ;
+    border: 2px solidrgb(36, 65, 132) ;
     position: relative;
     transition-duration: 0.4s;
     box-sizing: border-box;
@@ -135,8 +136,9 @@ button{
 }
 
 button:hover{
-    background-color:whitesmoke ;
-    color:  rgb(36, 65, 132);
+    background-color:rgb(36, 65, 132) ;
+    color: whitesmoke;
+    cursor: pointer;
 }
 
 
@@ -163,15 +165,16 @@ button:hover{
 }
 
 .sub-image:hover{
-    border: 2px solid whitesmoke;
+    border: 2px solid rgb(36, 65, 132);
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .info-td{
     width: 15cm;
-    border-bottom: 1px solid whitesmoke;
-    border-right: 1px solid whitesmoke;
-    border-top: 1px solid whitesmoke;
+    border-bottom: 1px solid rgb(36, 65, 132);
+    border-right: 1px solid rgb(36, 65, 132);
+    border-top: 1px solid rgb(36, 65, 132);
 }
 
 .like-div{
@@ -184,7 +187,7 @@ button:hover{
     text-align: center;
     font-family: Poppins;
     font-size: 20px;
-    color: whitesmoke;
+    color: rgb(36, 65, 132);
     margin-top: 100px;
 }
 
@@ -207,9 +210,9 @@ button:hover{
 .like-text-td{
     padding-right: 0px;
     margin: 0px;
-    border-bottom: 1px solid whitesmoke;
-    border-left: 1px solid whitesmoke;
-    border-right: 1px solid whitesmoke;
+    border-bottom: 1px solid rgb(36, 65, 132);
+    border-left: 1px solid rgb(36, 65, 132);
+    border-right: 1px solid rgb(36, 65, 132);
     
 }
 
@@ -251,12 +254,12 @@ button:hover{
     font-family: Poppins;
     font-size: 15px;
     transition-duration: 0.4s;
-    color: whitesmoke;
+    color: rgb(36, 65, 132);
 }
 
 .footer-li a:hover{
-    background-color: whitesmoke;
-    color: rgb(36, 65, 132);
+    background-color: rgb(36, 65, 132);
+    color: whitesmoke;
 }
 
 
