@@ -150,6 +150,38 @@ button:hover{
     right: -15%;
 }
 
+.card {
+    width: 700px;
+    height: 500px;
+    position: relative;
+    display: inline-block;
+    margin: 0px;
+}
+.card .img-top {
+    width:inherit;
+    height: inherit;
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+    border-radius: 30px;
+}
+
+.card .img-bottom {
+    width:inherit;
+    height: inherit;
+    border-radius: 30px;
+}
+
+
+.card:hover .img-top {
+    
+    display: inline;
+}
+
+
+
 .main-image{
     width:inherit;
     height: inherit;
@@ -159,7 +191,7 @@ button:hover{
 }
 
 .main-image:hover{
-background-image: url(assets/Abroline11.jpg);
+background-image: url(assets/Abroline11.jpg) no-repeat;
 }
 
 .sub-image{
