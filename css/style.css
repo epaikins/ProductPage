@@ -158,6 +158,10 @@ button:hover{
     border-radius: 30px;
 }
 
+.main-image:hover{
+background-image: url(assets/Abroline11.jpg);
+}
+
 .sub-image{
     width:inherit;
     height: inherit;
@@ -216,6 +220,9 @@ button:hover{
     border-left: 1px solid rgb(36, 65, 132);
     border-right: 1px solid rgb(36, 65, 132);
     
+}
+.like-text-td p{
+    text-align: center;
 }
 
 .like-tr{
